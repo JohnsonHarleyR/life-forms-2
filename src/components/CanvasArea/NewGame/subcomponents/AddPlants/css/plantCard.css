@@ -1,0 +1,42 @@
+.card {
+    border: 2px solid red;
+    background-color: white;
+    /* height: 200px; */
+    color: black;
+    font-size: small;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  .card td {
+    padding: 3px;
+  }
+  
+  .plant-icon {
+    margin-right:15px;
+    margin-top: 3px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .add-plant-type {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-area {
+    float: left;
+    align-content: center;
+    margin: 15px;
+  }
+  
+  .card-area {
+    display: flex;
+    justify-content: center;
+  }
